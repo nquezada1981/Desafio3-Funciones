@@ -56,6 +56,9 @@ function cambioColor(event){
     if(color2 !="" && (event.key =="q" || event.key==="Q" || event.key==="w" || event.key==="W" || event.key==="e" || event.key==="E")){            
         divKey2.style.backgroundColor = color2;
         texto2.textContent = `Se asigno el color ${color2} con la letra ${event.key}`    
+    }else {
+        texto.style.display="block";
+        key.style.display="none";
     }
 }
 
